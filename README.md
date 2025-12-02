@@ -68,7 +68,45 @@ The notebook constructs adjacency, degree, transition, empirical distribution, a
 	•	Tracking visit counts to each square
 	•	Normalization to obtain the empirical stationary distribution (S)
 
-Stationary Distribution & Return Times
+5. Stationary Distribution & Return Times
 	•	Interpretation of S as the long-run occupation frequency
 	•	Calculation of average return times (R) using reciprocity
 	•	Comparison between board regions (corners, edges, center)
+
+
+
+
+
+# Project 3 - Housing Price Prediction with Bootstrap Regression
+
+This project focuses on predicting housing prices using a real dataset. It covers exploratory data analysis, train-test splitting, and statistical modeling using a bootstrap procedure to assess model variability and coefficient stability.
+
+
+📌 Contents of the Notebook
+
+1. Dataset Import & Preparation
+	•	Loading the Boston Housing dataset from CSV
+	•	Extracting predictors (X) and target variable (medv)
+	•	Setting a deterministic random seed based on a student ID
+	•	Splitting the dataset into 90% training and 10% test subsets
+
+2. Exploratory Data Analysis (EDA)
+	•	Scatterplot analysis of the relationship between average number of rooms (rm) and housing prices (medv)
+	•	Preliminary inspection of dataset structure and descriptive patterns
+	•	Identification of correlations useful for regression modeling
+
+3. Train–Test Split Procedure
+	•	Manual index-based sampling for the 90–10 split
+	•	Verification of subset sizes and distribution of samples
+	•	Alternative split using train_test_split() from scikit-learn
+
+4. Bootstrap Estimation of Regression Coefficients
+	•	Implementation of a bootstrap resampling procedure (1,000 iterations)
+	•	Resampling of the training dataset with replacement
+	•	Fitting linear regression models using statsmodels OLS
+	•	Storage and aggregation of bootstrap-derived coefficient estimates
+
+5. Model Interpretation & Stability Analysis
+	•	Assessment of coefficient variability across bootstrap samples
+	•	Evaluation of model robustness and sensitivity to sampling variation
+	•	Preparation for confidence interval estimation (if extended)
