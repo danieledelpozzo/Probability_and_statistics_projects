@@ -48,14 +48,27 @@ The notebook constructs adjacency, degree, transition, empirical distribution, a
 
 📌 Contents of the Notebook
 
-	•	Model knight moves as transitions in a Markov Chain
-	•	Construct matrices that characterize the chain:
-	•	Adjacency matrix (A)
-	•	Degree matrix (D)
-	•	Degree vector (d)
-	•	Transition matrix (P)
-	•	Move-count matrix (C)
-	•	Simulate a long random walk to approximate the:
-	•	Stationary distribution (S)
-	•	Average return times (R)
+Knight Movement Model
+	•	Representation of the chessboard as an 8×8 grid
+	•	Definition of all legal knight moves
+	•	Computation of the number of legal moves per square (Matrix C)
 
+Adjacency Matrix Construction
+	•	Creation of the 64×64 adjacency matrix (A)
+	•	Encoding legal knight moves as directed edges
+	•	Mapping chessboard coordinates to matrix indices
+
+Degree and Transition Matrices
+	•	Construction of the degree matrix (D) and degree vector (d)
+	•	Definition of the transition matrix (P) with uniform move probabilities
+	•	Verification of row-stochastic properties and connectivity
+
+Random Walk Simulation
+	•	Execution of a 100,000-step knight random walk
+	•	Tracking visit counts to each square
+	•	Normalization to obtain the empirical stationary distribution (S)
+
+Stationary Distribution & Return Times
+	•	Interpretation of S as the long-run occupation frequency
+	•	Calculation of average return times (R) using reciprocity
+	•	Comparison between board regions (corners, edges, center)
