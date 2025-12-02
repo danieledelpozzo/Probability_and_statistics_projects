@@ -47,6 +47,7 @@ The notebook constructs adjacency, degree, transition, empirical distribution, a
 
 
 📌 Contents of the Notebook
+
 	•	Model knight moves as transitions in a Markov Chain
 	•	Construct matrices that characterize the chain:
 	•	Adjacency matrix (A)
