@@ -34,3 +34,27 @@ It explores pseudo-random number generation, Bernoulli trials, random adjacency 
 	•	Generation of a small-world network
 	•	Exploration of clustering and path length
 
+
+
+
+
+# Project 2 - Knight’s Movement Markov Chain – Stationary Distribution & Return Times
+
+This project models the movement of a knight on a standard 8×8 chessboard using a Markov Chain.
+It was developed as part of the Probability and Statistics course at USI.
+
+The notebook constructs adjacency, degree, transition, empirical distribution, and return-time matrices, and simulates random knight walks to approximate the stationary distribution.
+
+
+📌 Contents of the Notebook
+	•	Model knight moves as transitions in a Markov Chain
+	•	Construct matrices that characterize the chain:
+	•	Adjacency matrix (A)
+	•	Degree matrix (D)
+	•	Degree vector (d)
+	•	Transition matrix (P)
+	•	Move-count matrix (C)
+	•	Simulate a long random walk to approximate the:
+	•	Stationary distribution (S)
+	•	Average return times (R)
+
