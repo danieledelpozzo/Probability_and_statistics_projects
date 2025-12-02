@@ -110,3 +110,39 @@ This project focuses on predicting housing prices using a real dataset. It cover
 	•	Assessment of coefficient variability across bootstrap samples
 	•	Evaluation of model robustness and sensitivity to sampling variation
 	•	Preparation for confidence interval estimation (if extended)
+
+
+
+# Project 4 — Diabetes Prediction Model with Logistic Regression and Neural Networks
+
+This project focuses on predicting diabetes outcomes using clinical data. It combines classical logistic regression with a simple neural network model, including exploratory data analysis, dataset splitting, and model evaluation.
+
+📌 Contents of the Notebook
+
+1. Exploratory Analysis
+	•	Importing and inspecting the dataset (diabetes.csv)
+	•	Visualization of feature relationships using pair plots
+	•	Identifying trends and patterns in predictors and the outcome
+
+2. Data Preparation
+	•	Splitting the dataset into training (90%) and test (10%) sets
+	•	Ensuring reproducibility using student-specific random seed
+	•	Defining predictors (X) and target variable (Outcome)
+
+3. Logistic Regression Model
+	•	Fitting a logistic regression model to predict diabetes outcomes
+	•	Evaluating model performance and coefficients
+	•	Comparing results with baseline expectations
+
+4. Neural Network Model
+	•	Defining a simple feed-forward neural network for binary classification
+	•	Using sigmoid activation and binary cross-entropy loss
+	•	Compiling with the Adam optimizer
+	•	Training the network on the prepared dataset
+
+5. Model Interpretation
+	•	Comparing predictions from logistic regression and neural network
+	•	Assessing model accuracy and suitability for clinical data
+	•	Visualizing results to support insights and conclusions
+
+
