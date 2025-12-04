@@ -5,8 +5,8 @@ A collection of university projects demonstrating applied probability, statistic
 
 # Project 1 – Pseudo-Random Number Generators & Watts–Strogatz Model
 
-This project was completed for the Probability and Statistics course at USI.
-It explores pseudo-random number generation, Bernoulli trials, random adjacency matrices, and the Watts–Strogatz small-world model.
+This project explores pseudo-random number generation, Bernoulli trials, random adjacency matrices, and the Watts–Strogatz small-world model.
+
 
 
 📌 Contents of the Notebook
@@ -41,7 +41,7 @@ It explores pseudo-random number generation, Bernoulli trials, random adjacency 
 # Project 2 - Knight’s Movement Markov Chain – Stationary Distribution & Return Times
 
 This project models the movement of a knight on a standard 8×8 chessboard using a Markov Chain.
-It was developed as part of the Probability and Statistics course at USI.
+
 
 The notebook constructs adjacency, degree, transition, empirical distribution, and return-time matrices, and simulates random knight walks to approximate the stationary distribution.
 
