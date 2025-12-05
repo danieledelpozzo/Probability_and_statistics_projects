@@ -43,7 +43,7 @@ This project explores pseudo-random number generation, Bernoulli trials, random 
 This project models the movement of a knight on a standard 8×8 chessboard using a Markov Chain.
 
 
-The notebook constructs adjacency, degree, transition, empirical distribution, and return-time matrices, and simulates random knight walks to approximate the stationary distribution.
+
 
 
 📌 Contents of the Notebook
